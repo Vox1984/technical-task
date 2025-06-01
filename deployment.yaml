@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: fastapi-container
-          image: your-dockerhub-username/fastapi-app:latest  # Replace with your real image
+          image: wojtaszet/fastapi-app:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8085
